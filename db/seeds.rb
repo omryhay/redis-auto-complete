@@ -3,7 +3,7 @@ require 'rest_client'
 
 time1 = Time.new
 puts "Started - Current Time : " + time1.inspect
-arr = ('a'..'z').to_a
+arr = ('a'..'b').to_a
 index = 1
 finished = false
 url = ''
