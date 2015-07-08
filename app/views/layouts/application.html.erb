@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SoulmateExample</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div style="width: 100%; height: 100px; text-align: center;">
+	<img src="/assets/logo.png" alt="fiverr" style="height: inherit;"/>
+</div>
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<div style="text-align: center;">
+With Redis: <%= text_field_tag 'person_name' %>
+With SQL: <%= text_field_tag 'person_name_sql' %>
+</div>
+<script>
+$(function() {
+  $("#person_name").autocomplete({
+    source: "<%= people_autocomplete_person_name_path %>"
+  });
+  $("#person_name_sql").autocomplete({
+    source: "<%= people_autocomplete_person_name_sql_path %>"
+  });
+})
+</script>
