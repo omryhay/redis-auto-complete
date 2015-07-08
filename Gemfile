@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 gem 'soulmate'
 gem 'faker'
-gem 'rest-client', '~> 1.7.2'
+gem 'rest-client'
 
 gem 'pg'
 # Use SCSS for stylesheets
