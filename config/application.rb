@@ -22,5 +22,6 @@ module SoulmateExample
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    Soulmate.redis = 'redis://:Aa123456!@pub-redis-10628.us-east-1-3.3.ec2.garantiadata.com:10628/0'
   end
 end
